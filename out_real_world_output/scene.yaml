@@ -1,0 +1,220 @@
+timestamp: '2025-10-30T01:07:41Z'
+camera_pose:
+  position:
+    x: -0.043648452060921966
+    y: 1.7663271570071652
+    z: 0.5652089908984382
+  orientation:
+    x: -0.01585874252603704
+    y: 0.9431938678022798
+    z: -0.33088508959040397
+    w: 0.025473231291269025
+objects:
+  a_red_dice_000:
+    name: a red dice
+    description: a photo of a red dice
+    category: unknown
+    position:
+      x: -0.28474990176552484
+      y: 0.18280857786963853
+      z: 0.04757589017659804
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: -138.03848242806063
+    dimensions:
+      length: 0.09501616598184301
+      width: 0.08107550583299988
+      height: 0.02971844009143388
+    properties:
+      graspable: true
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.3543945848941803
+    num_points: 724
+    ply_file: out/objects/object_000_a_red_dice.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_Ar_tag_001:
+    name: a Ar tag
+    description: a photo of a Ar tag
+    category: unknown
+    position:
+      x: 0.20134658382499643
+      y: 0.41652143511992573
+      z: 0.04
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 47.67703528195102
+    dimensions:
+      length: 0.13272053283924268
+      width: 0.08262704918817262
+      height: 0.010389005715980337
+    properties:
+      graspable: false
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.3045367896556854
+    num_points: 684
+    ply_file: out/objects/object_001_a_Ar_tag.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_yellow_dice_003:
+    name: a yellow dice
+    description: a photo of a yellow dice
+    category: unknown
+    position:
+      x: 0.15154448405715362
+      y: 0.21876189603200333
+      z: 0.04
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: -171.8323363721327
+    dimensions:
+      length: 0.8465304969383582
+      width: 0.48629601206473466
+      height: 0.029938107679571946
+    properties:
+      graspable: false
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.34034377336502075
+    num_points: 2500
+    ply_file: out/objects/object_003_a_yellow_dice.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_yellow_dice_004:
+    name: a yellow dice
+    description: a photo of a yellow dice
+    category: unknown
+    position:
+      x: 0.009142871660193938
+      y: 0.4332261725430869
+      z: 0.06342396791032986
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 95.56796261687612
+    dimensions:
+      length: 0.06869391347747299
+      width: 0.06426585425949514
+      height: 0.015696618430101512
+    properties:
+      graspable: true
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.354592889547348
+    num_points: 213
+    ply_file: out/objects/object_004_a_yellow_dice.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_blue_dice_005:
+    name: a blue dice
+    description: a photo of a blue dice
+    category: unknown
+    position:
+      x: 0.2810375058966178
+      y: 0.2308677483493412
+      z: 0.0530250777291673
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 105.62672419569583
+    dimensions:
+      length: 0.09269658668882028
+      width: 0.06716470140468915
+      height: 0.02312935076235923
+    properties:
+      graspable: true
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.3930455148220062
+    num_points: 415
+    ply_file: out/objects/object_005_a_blue_dice.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_black_dot_010:
+    name: a black dot
+    description: a photo of a black dot
+    category: unknown
+    position:
+      x: 0.38130700209801616
+      y: -0.14126192068508578
+      z: 0.04
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 101.53330659219995
+    dimensions:
+      length: 0.12254657729405508
+      width: 0.054670072368858166
+      height: 0.012495404470391547
+    properties:
+      graspable: false
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.30000680685043335
+    num_points: 25
+    ply_file: out/objects/object_010_a_black_dot.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_Ar_tag_012:
+    name: a Ar tag
+    description: a photo of a Ar tag
+    category: unknown
+    position:
+      x: -0.06772788092312823
+      y: 0.5689604679632505
+      z: 0.04
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 179.99870513466556
+    dimensions:
+      length: 0.6473965711708238
+      width: 0.010954416686110338
+      height: 0.02978196713707504
+    properties:
+      graspable: false
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.25156643986701965
+    num_points: 1878
+    ply_file: out/objects/object_012_a_Ar_tag.ply
+    last_seen: '2025-10-30T01:07:41Z'
+  a_red_dice_018:
+    name: a red dice
+    description: a photo of a red dice
+    category: unknown
+    position:
+      x: -0.26210931713166846
+      y: 0.16762398096775125
+      z: 0.051800789340436096
+    orientation:
+      roll: 0.0
+      pitch: 0.0
+      yaw: 69.68371616931954
+    dimensions:
+      length: 0.030111395620572898
+      width: 0.006553982440819115
+      height: 0.007781906612761569
+    properties:
+      graspable: true
+      moveable: true
+      weight: unknown
+      color: unknown
+      material: unknown
+    confidence: 0.3264981806278229
+    num_points: 15
+    ply_file: out/objects/object_018_a_red_dice.ply
+    last_seen: '2025-10-30T01:07:41Z'

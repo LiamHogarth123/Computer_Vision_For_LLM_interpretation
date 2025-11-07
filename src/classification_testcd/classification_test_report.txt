@@ -1,0 +1,39 @@
+======================================================================
+CLASSIFICATION TEST REPORT
+======================================================================
+Timestamp: 2025-11-02T22:17:14.163519
+Results file: /home/liam/git/HRC_Capstone/config/objects.yaml
+Expected objects file: test_config.yaml
+======================================================================
+
+SUMMARY
+----------------------------------------------------------------------
+Total expected objects: 5
+Total detected objects: 8
+Correctly labeled: 5
+Missing objects: 0
+Extra detections: 3
+
+METRICS
+----------------------------------------------------------------------
+Precision: 0.625 (62.5%)
+Recall: 1.000 (100.0%)
+F1-Score: 0.769
+Accuracy: 0.625 (62.5%)
+
+PER-CLASS RESULTS
+----------------------------------------------------------------------
+Object Type                 Expected   Detected    Correct          Status
+----------------------------------------------------------------------
+ar tag                             2          3          2 ⚠ Over-detected
+black dot                          0          1          0 ⚠ Over-detected
+blue dice                          1          1          1       ✓ Perfect
+red dice                           1          1          1       ✓ Perfect
+unknown object                     0          1          0 ⚠ Over-detected
+yellow dice                        1          1          1       ✓ Perfect
+======================================================================
+
+VERDICT
+----------------------------------------------------------------------
+✗ POOR - Significant classification issues
+======================================================================

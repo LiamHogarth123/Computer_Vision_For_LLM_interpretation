@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-11-02T22:17:14.163519",
+  "total_expected": 5,
+  "total_detected": 8,
+  "correct_labels": 5,
+  "incorrect_labels": 0,
+  "missing_objects": 0,
+  "extra_detections": 3,
+  "details": [],
+  "precision": 0.625,
+  "recall": 1.0,
+  "f1_score": 0.7692307692307693,
+  "accuracy": 0.625,
+  "per_class_results": [
+    {
+      "label": "ar tag",
+      "expected": 2,
+      "detected": 3,
+      "correct": 2,
+      "missing": 0,
+      "extra": 1,
+      "status": "\u26a0 Over-detected"
+    },
+    {
+      "label": "black dot",
+      "expected": 0,
+      "detected": 1,
+      "correct": 0,
+      "missing": 0,
+      "extra": 1,
+      "status": "\u26a0 Over-detected"
+    },
+    {
+      "label": "blue dice",
+      "expected": 1,
+      "detected": 1,
+      "correct": 1,
+      "missing": 0,
+      "extra": 0,
+      "status": "\u2713 Perfect"
+    },
+    {
+      "label": "red dice",
+      "expected": 1,
+      "detected": 1,
+      "correct": 1,
+      "missing": 0,
+      "extra": 0,
+      "status": "\u2713 Perfect"
+    },
+    {
+      "label": "unknown object",
+      "expected": 0,
+      "detected": 1,
+      "correct": 0,
+      "missing": 0,
+      "extra": 1,
+      "status": "\u26a0 Over-detected"
+    },
+    {
+      "label": "yellow dice",
+      "expected": 1,
+      "detected": 1,
+      "correct": 1,
+      "missing": 0,
+      "extra": 0,
+      "status": "\u2713 Perfect"
+    }
+  ],
+  "misclassification_analysis": {
+    "correct": [
+      {
+        "object_id": "a_Ar_tag_000",
+        "detected": "ar tag",
+        "expected": "ar tag",
+        "confidence": 0.28410324454307556,
+        "similarity": 1.0
+      },
+      {
+        "object_id": "a_Ar_tag_001",
+        "detected": "ar tag",
+        "expected": "ar tag",
+        "confidence": 0.2640233039855957,
+        "similarity": 1.0
+      },
+      {
+        "object_id": "a_blue_dice_002",
+        "detected": "blue dice",
+        "expected": "blue dice",
+        "confidence": 0.3771437704563141,
+        "similarity": 1.0
+      },
+      {
+        "object_id": "a_yellow_dice_003",
+        "detected": "yellow dice",
+        "expected": "yellow dice",
+        "confidence": 0.357743501663208,
+        "similarity": 1.0
+      },
+      {
+        "object_id": "a_red_dice_004",
+        "detected": "red dice",
+        "expected": "red dice",
+        "confidence": 0.30408239364624023,
+        "similarity": 1.0
+      }
+    ],
+    "misclassifications": [
+      {
+        "object_id": "a_black_dot_005",
+        "detected": "black dot",
+        "expected_closest": "Unknown",
+        "issue": "Wrong label",
+        "confidence": 0.274410218000412,
+        "similarity": 0.0
+      },
+      {
+        "object_id": "a_Ar_tag_007",
+        "detected": "ar tag",
+        "issue": "Extra detection",
+        "confidence": 0.282350093126297
+      },
+      {
+        "object_id": "a_unknown_object_008",
+        "detected": "unknown object",
+        "expected_closest": "Unknown",
+        "issue": "Wrong label",
+        "confidence": 0.2812100946903229,
+        "similarity": 0.0
+      }
+    ],
+    "missing": []
+  }
+}

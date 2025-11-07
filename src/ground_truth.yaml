@@ -1,0 +1,39 @@
+timestamp: '2025-11-02T05:16:54Z'
+note: Manually measure object positions and dimensions with calipers/ruler
+objects:
+  Red_dice_001:
+    name: Red dice
+    position:
+      x: -0.25
+      y: 0.16
+      z: 0
+    dimensions:
+      length: 0.0625
+      width: 0.0625
+      height: 0.0625
+    orientation:
+      yaw: 0.0
+  yellow_dice_002:
+    name: yellow dice
+    position:
+      x: 0.25
+      y: 0.16
+      z: 0.00
+    dimensions:
+      length: 0.0625
+      width: 0.0625
+      height: 0.0625
+    orientation:
+      yaw: 0
+  blue_dice_003:
+    name: blue dice
+    position:
+      x: 0
+      y: 0.45
+      z: 0
+    dimensions:
+      length: 0.0625
+      width: 0.0625
+      height: 0.0625
+    orientation:
+      yaw: 0

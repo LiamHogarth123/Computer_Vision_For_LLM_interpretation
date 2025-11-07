@@ -1,0 +1,25 @@
+test_name: Classification Test
+date: '2025-11-02'
+description: List the objects you expect to find in the scene
+expected_objects:
+  blue_dice:
+    name: "a photo of a blue dice"
+    count: 1
+    notes: one blue six-sided dice
+  red_dice:
+    name: "a photo of a red dice"
+    count: 1
+    notes: One red die
+  yellow_dice:
+    name: "a photo of a yellow dice"
+    count: 1
+    notes: One yellow die
+  A phot of a AR tag:
+    name: "a photo of a Ar tag"
+    count: 2
+    notes: a photo of a printed Ar Tag
+    
+notes:
+- Use exact names as they appear in your CLIP_LABELS
+- 'count: how many of each object you expect'
+- The system will check if CLIP correctly identifies all objects

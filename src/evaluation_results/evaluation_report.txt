@@ -1,0 +1,47 @@
+======================================================================
+VISION SYSTEM EVALUATION REPORT
+======================================================================
+Generated: 2025-11-02 22:16:00
+Results file: /home/liam/git/HRC_Capstone/config/objects.yaml
+Ground truth: ground_truth.yaml
+======================================================================
+
+1. DETECTION PERFORMANCE
+----------------------------------------------------------------------
+   Objects predicted: 8
+   Ground truth objects: 3
+   True Positives: 3
+   False Positives: 5
+   False Negatives: 0
+   Precision: 0.375 (37.5%)
+   Recall: 1.000 (100.0%)
+   F1-Score: 0.545
+   mAP@0.10m: 1.000
+
+2. CLASSIFICATION ACCURACY
+----------------------------------------------------------------------
+   Total classifications: 3
+   Correct: 2
+   Incorrect: 1
+   Accuracy: 0.667 (66.7%)
+   Mean confidence: 0.346
+
+3. LOCALIZATION ACCURACY
+----------------------------------------------------------------------
+   Position Error:
+     Mean: 86.74 ± 8.63 mm
+     Median: 90.69 mm
+     Range: [74.77, 94.77] mm
+     95th percentile: 94.36 mm
+   Per-axis errors:
+     X: 43.01 ± 17.15 mm
+     Y: 39.63 ± 19.42 mm
+     Z: 59.00 ± 5.05 mm
+
+4. DIMENSION ESTIMATION
+----------------------------------------------------------------------
+   Length: 18.32 ± 7.16 mm
+   Width: 6.06 ± 4.11 mm
+   Height: 43.07 ± 6.15 mm
+
+======================================================================

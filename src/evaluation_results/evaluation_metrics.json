@@ -1,0 +1,110 @@
+{
+  "detection": {
+    "n_predicted": 8,
+    "n_ground_truth": 3,
+    "true_positives": 3,
+    "false_positives": 5,
+    "false_negatives": 0,
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1_score": 0.5454545454545454,
+    "mAP": 1.0,
+    "matches": [
+      {
+        "pred_id": "a_blue_dice_002",
+        "gt_id": "blue_dice_001",
+        "distance": 0.09476802793766553
+      },
+      {
+        "pred_id": "a_yellow_dice_003",
+        "gt_id": "red_dice_002",
+        "distance": 0.07476668818532108
+      },
+      {
+        "pred_id": "a_red_dice_004",
+        "gt_id": "yellow_dice_002",
+        "distance": 0.09068739271635111
+      }
+    ],
+    "unmatched_predictions": [
+      "a_Ar_tag_000",
+      "a_Ar_tag_001",
+      "a_black_dot_005",
+      "a_Ar_tag_007",
+      "a_unknown_object_008"
+    ],
+    "unmatched_ground_truth": []
+  },
+  "classification": {
+    "total_classifications": 3,
+    "correct": 2,
+    "incorrect": 1,
+    "accuracy": 0.6666666666666666,
+    "mean_confidence": 0.3463232219219208,
+    "confusion_matrix": {
+      "blue dice": {
+        "a blue dice": 1
+      },
+      "red dice": {
+        "a yellow dice": 1,
+        "a red dice": 1
+      }
+    },
+    "details": [
+      {
+        "predicted": "a blue dice",
+        "ground_truth": "blue dice",
+        "correct": true,
+        "confidence": 0.3771437704563141,
+        "distance_m": 0.09476802793766553
+      },
+      {
+        "predicted": "a yellow dice",
+        "ground_truth": "red dice",
+        "correct": false,
+        "confidence": 0.357743501663208,
+        "distance_m": 0.07476668818532108
+      },
+      {
+        "predicted": "a red dice",
+        "ground_truth": "red dice",
+        "correct": true,
+        "confidence": 0.30408239364624023,
+        "distance_m": 0.09068739271635111
+      }
+    ]
+  },
+  "localization": {
+    "mean_error_mm": 86.7407029464459,
+    "std_error_mm": 8.629239753191259,
+    "median_error_mm": 90.68739271635111,
+    "min_error_mm": 74.76668818532107,
+    "max_error_mm": 94.76802793766554,
+    "percentile_95_mm": 94.3599644155341,
+    "per_axis": {
+      "x_mean_mm": 43.01222409151114,
+      "y_mean_mm": 39.62770837361937,
+      "z_mean_mm": 59.00333265097853,
+      "x_std_mm": 17.150699551391163,
+      "y_std_mm": 19.415553677836325,
+      "z_std_mm": 5.050064403309088
+    },
+    "all_errors_mm": [
+      94.76802793766554,
+      74.76668818532107,
+      90.68739271635111
+    ]
+  },
+  "dimensions": {
+    "length_mean_error_mm": 18.318243331083078,
+    "length_std_error_mm": 7.1596175260881365,
+    "length_median_error_mm": 14.600563761656083,
+    "width_mean_error_mm": 6.061134917046444,
+    "width_std_error_mm": 4.112671160049909,
+    "width_median_error_mm": 4.42286412326226,
+    "height_mean_error_mm": 43.072868805937254,
+    "height_std_error_mm": 6.149053130755798,
+    "height_median_error_mm": 43.20189635774529
+  },
+  "overall": {}
+}
